@@ -50,7 +50,7 @@ const Login = () => {
       <div className={styles.login_form_container}>
         <div className={styles.left}>
           <form className={styles.form_container} onSubmit={handleSubmit}>
-            <h1 style={{ fontSize: "30px" }}>Login to Your Page-CI/CD Test</h1>
+            <h1 style={{ fontSize: "30px" }}>Login to Your accountt</h1>
             <input
               type="email"
               placeholder="Email"
