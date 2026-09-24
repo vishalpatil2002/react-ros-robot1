@@ -50,7 +50,7 @@ const Login = () => {
       <div className={styles.login_form_container}>
         <div className={styles.left}>
           <form className={styles.form_container} onSubmit={handleSubmit}>
-            <h1 style={{ fontSize: "30px" }}>Login to Your Account</h1>
+            <h1 style={{ fontSize: "30px" }}>Login to Your Taurus-vishal</h1>
             <input
               type="email"
               placeholder="Email"
@@ -63,7 +63,7 @@ const Login = () => {
             <div className={styles.password_container}>
               <input
                 type={showPassword ? "text" : "password"}
-                placeholder="Password"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                placeholder="Password"
                 name="password"
                 onChange={handleChange}
                 value={data.password}
@@ -71,7 +71,7 @@ const Login = () => {
                 // className={styles.input}
                 style={{
                   border: "none",
-                  backgroundColor: "#edf5f3",                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+                  backgroundColor: "#edf5f3",
                   outline: "none",
                   width: "370px",
                 }}
